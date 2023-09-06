@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/robowar/static/css/main.67f9bd3e.css",
+    "main.js": "/robowar/static/js/main.e2c348e3.js",
+    "static/media/ro.jpg": "/robowar/static/media/ro.4992c0f236c2789b8167.jpg",
+    "index.html": "/robowar/index.html",
+    "main.67f9bd3e.css.map": "/robowar/static/css/main.67f9bd3e.css.map",
+    "main.e2c348e3.js.map": "/robowar/static/js/main.e2c348e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67f9bd3e.css",
+    "static/js/main.e2c348e3.js"
+  ]
+}
