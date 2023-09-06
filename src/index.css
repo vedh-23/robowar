@@ -1,13 +1,343 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  background: #310158 !important;
+  background: linear-gradient(0deg, rgba(38, 38, 38, 1), rgba(42, 64, 83, 1), 100%);
+  height: 12vh;
+  color: red;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Textcentre {
+  text-align: center;
+  font-weight: bold;
+}
+
+.singleCol {
+  max-width: 750px;
+  margin: 0 auto;
+
+}
+
+.social-media-icons-white {
+  color: red;
+  font-size: 2rem;
+}
+
+* {
+  background-color: #310158;
+}
+.faq{
+  color: aqua;
+  text-align: center;
+}
+.sp{
+  color: aqua;
+  text-align: center;
+}
+.nq{
+  color: aqua;
+  background-color: rebeccapurple;
+  box-sizing: border-box;
+  width: 100px;
+  height: 50px;
+  font-size: medium;
+  border-radius: 2px 2px 2px 2px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+.co{
+  color:aqua;
+}
+.ma{
+  color: aqua;
+}
+.ak{
+  color: aqua;
+}
+
+.head {
+  background-color: #310158;
+  position: relative;
+
+}
+
+
+.b {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #8920a1;
+  box-sizing: border-box;
+  box-shadow: 2.5px 2.5px 2.5px 2.5px;
+  color: aqua;
+  width: 100px;
+  height: 50px;
+  font-size: medium;
+
+}
+
+.g {
+  position: relative;
+  top: 20%;
+  left: 44%;
+
+
+}
+
+.g1 {
+  position: absolute;
+  top: 0%;
+  left: 43.5%;
+  height: 200px;
+  width: 200px;
+  
+
+}
+
+
+.h1 {
+  display: inline-flex;
+  /* Use flex container for the first set of buttons */
+  justify-content: flex-start;
+  /* Align them to the start */
+  flex-direction: row;
+  position: absolute;
+  /* Position this set absolutely within .head */
+  top: 0;
+  /* Position it at the top */
+  left: 0;
+  
+  /* Align it to the start */
+}
+.hg{
+  color: aqua;
+  text-align: center;
+
+}
+.ig{
+  align-self: center;
+}
+.h2 {
+  display: inline-flex;
+  /* Use flex container for the second set of buttons */
+  justify-content: flex-end;
+  /* Align them to the end */
+  flex-direction: row;
+  position: absolute;
+  /* Position this set absolutely within .head */
+  top: 0;
+  /* Position it at the top */
+  right: 0;
+
+}
+
+.ro {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 35%;
+  height: 200px;
+  width: 500px;
+  box-sizing: border-box;
+
+
+}
+
+.r {
+  height: 70px;
+  width: 140px;
+  margin: 40px;
+  padding: 0px;
+  font-size: medium;
+  border-radius: 10px;
+
+  background-color: rebeccapurple;
+  color:aqua ;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 2px;
+  
+
+}
+
+.l {
+  text-decoration: none;
+  color: aqua;
+  background-color: rebeccapurple;
+  height: 50px;
+  width: 50px;
+  font-size: large;
+  
+}
+
+.h {
+  background-color: rebeccapurple;
+  color: aqua;
+}
+
+.ah {
+  position: absolute;
+  top: 33%;
+  left: 45%;
+  color: aqua;
+
+}
+
+.v {
+  position: absolute;
+  top: 43%;
+  left: 35%;
+
+}
+
+.vi {
+  width: 400px;
+  height: 200px;
+}
+
+.robo {
+  position: absolute;
+  display: inline-block;
+  top: 75%;
+
+}
+
+.ag {
+  position: absolute;
+  top: 100%;
+
+}
+
+.rv {
+  height: 50px;
+  width: 100px;
+  padding: 5px;
+  margin-right: 0px;
+  color: aqua;
+  background-color: rebeccapurple;
+  box-sizing: border-box;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px;
+
+  margin-left: 350px;
+
+}
+
+.rw {
+  height: 50px;
+  width: 100px;
+  padding: 5px;
+  margin-left: 350px;
+  margin-right: 0px;
+  color: aqua;
+  background-color: rebeccapurple;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px;
+}
+
+.ht {
+  position: absolute;
+  top: 35%;
+  left: 46.5%;
+  height: 800px;
+  color: aqua;
+
+
+
+}
+
+.t1 {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  background-color: aqua;
+  width: 200px;
+  height: 100px;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+h2 {
+  background-color: aqua;
+
+}
+
+h3 {
+  background-color: aqua;
+}
+
+.t2 {
+  position: absolute;
+  top: 105%;
+  left: 45%;
+  background-color: aqua;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  box-sizing: border-box;
+
+
+
+}
+
+.t3 {
+
+  position: absolute;
+  top: 85%;
+  left: 45%;
+  background-color: aqua;
+  text-align: center;
+  box-sizing: border-box;
+  width: 200px;
+  height: 80px;
+
+}
+
+
+.pm {
+  position: absolute;
+  top: 145%;
+  left: 20%;
+}
+
+.ar {
+  position: absolute;
+  height: 25px;
+  width: 20px;
+  left: 80px;
+}
+
+.ar1 {
+  position: absolute;
+  height: 25px;
+  width: 20px;
+  left: 80px;
+  top: 100%;
+  margin-top: 15px;
+
+}
+
+.pmi {
+  height: 200px;
+  width: 200px;
+}
+
+#pmh {
+  position: absolute;
+  top: 135%;
+  left: 35%;
+  color: aqua;
+}
+
+.black {
+  color: aqua;
+  font-size: small;
+  font-weight: normal;
+}
+p{
+  color: aqua;
+
+}
+.ec{
+  color: aqua;
+  text-align: center;
 }
